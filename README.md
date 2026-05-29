@@ -692,3 +692,12 @@ MediFlow AI demonstrates modern AI engineering principles including:
 ✅ Production-style hospital workflow simulation
 
 This project reflects the design philosophy of modern enterprise AI systems rather than a basic chatbot implementation.
+git clone <repo-link>
+
+cd mediflow-ai
+
+pip install -r requirements.txt
+
+ollama run llama3.2:1b
+
+streamlit run streamlit_app.py
