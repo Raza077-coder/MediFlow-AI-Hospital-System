@@ -691,13 +691,43 @@ MediFlow AI demonstrates modern AI engineering principles including:
 ✅ Local LLM deployment using Ollama
 ✅ Production-style hospital workflow simulation
 
-This project reflects the design philosophy of modern enterprise AI systems rather than a basic chatbot implementation.
-git clone <repo-link>
+# ⚙ Installation & Run Guide
 
+## 1. Clone Repository
+
+```bash
+git clone <your-github-repo-link>
+```
+
+## 2. Open Project Folder
+
+```bash
 cd mediflow-ai
+```
 
+## 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
+## 4. Run Ollama Model
+
+```bash
 ollama run llama3.2:1b
+```
 
+## 5. Launch Streamlit Dashboard
+
+```bash
 streamlit run streamlit_app.py
+```
+
+---
+
+## ✅ Notes
+
+- Ollama + Llama 3.2:1B is used instead of cloud API keys.
+- This enables fully local AI inference.
+- No paid API is required.
+- The system uses SQLite for persistent hospital data storage.
